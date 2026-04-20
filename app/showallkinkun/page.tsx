@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { supabase } from "@/services/supabaseClient";
 import { useRouter } from "next/navigation";
+import FooterSAU from "@/components/FooterSAU";
 
 export default function ShowAllKinkun() {
   const router = useRouter();
@@ -136,10 +137,8 @@ export default function ShowAllKinkun() {
           ออกจากการใช้งาน
         </p>
 
-        <div className="text-center mt-4 text-sm text-gray-500">
-          <p>Created by SAU</p>
-          <p>Copyright © 2025 All rights reserved.</p>
-        </div>
+      {/* ส่วนของ Footer */}
+      <FooterSAU />
       </div>
     </div>
   );

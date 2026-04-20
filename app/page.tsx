@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Image from "next/image";
+import FooterSAU from "@/components/FooterSAU";
 
 export default function Home() {
   const router = useRouter();
@@ -52,13 +53,8 @@ export default function Home() {
         </button>
       </div>
 
-      <div className="w-full text-center mt-10">
-        <h3>
-          &copy; 2026 Southeast Asia University. All rights reserved
-          <br />
-          Created By Woraprat SAU
-        </h3>
-      </div>
+      {/* ส่วนของ Footer */}
+      <FooterSAU />
     </div>
   );
 }
