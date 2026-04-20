@@ -52,9 +52,12 @@ export default function Home() {
         </button>
       </div>
 
-      <div className="text-center mt-6 text-sm text-gray-600">
-        <p>Created by SAU</p>
-        <p>Copyright © 2025 All rights reserved.</p>
+      <div className="w-full text-center mt-10">
+        <h3>
+          &copy; 2026 Southeast Asia University. All rights reserved
+          <br />
+          Created By Woraprat SAU
+        </h3>
       </div>
     </div>
   );
